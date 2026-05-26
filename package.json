@@ -30,7 +30,12 @@
       "@skyscanner/backpack-web/bpk-component-code",
       "@skyscanner/backpack-web/bpk-component-button",
       "@skyscanner/backpack-web/bpk-component-text",
-      "@skyscanner/backpack-web/bpk-react-utils"
+      "@skyscanner/backpack-web/bpk-react-utils",
+      "bpk-component-calendar",
+      "bpk-component-icon",
+      "bpk-component-select",
+      "bpk-component-aria-live",
+      "bpk-react-utils"
     ]
   },
   "devDependencies": {

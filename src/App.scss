@@ -26,6 +26,9 @@
   }
 
   &__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: $bpk-spacing-xxl;
 
     @include container;
@@ -41,5 +44,17 @@
 
   &__text {
     margin-bottom: $bpk-spacing-sm;
+  }
+
+  &__calendar {
+    display: block;
+    width: 100%;
+    max-width: 22rem;
+    margin-bottom: $bpk-spacing-lg;
+  }
+
+  &__continue {
+    display: block;
+    margin-top: $bpk-spacing-md;
   }
 }
