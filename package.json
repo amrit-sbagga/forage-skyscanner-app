@@ -25,11 +25,20 @@
       "last 1 safari version"
     ]
   },
+  "backpack-react-scripts": {
+    "babelIncludePrefixes": [
+      "@skyscanner/backpack-web/bpk-component-code",
+      "@skyscanner/backpack-web/bpk-component-button",
+      "@skyscanner/backpack-web/bpk-component-text",
+      "@skyscanner/backpack-web/bpk-react-utils"
+    ]
+  },
   "devDependencies": {
-    "@skyscanner/backpack-web": "^15.1.0",
+    "@skyscanner/backpack-web": "11.2.0",
     "bpk-mixins": "^36.2.0",
     "bpk-stylesheets": "^7.2.16",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "sass": "^1.77.0"
   }
 }
