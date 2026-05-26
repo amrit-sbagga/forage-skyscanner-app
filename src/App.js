@@ -13,7 +13,7 @@ const App = () => (
   <div className={getClassName('App')}>
     <header className={getClassName('App__header')}>
       <div className={getClassName('App__header-inner')}>
-        <BpkText tagName="h1" textStyle="xxl" className={getClassName('App__heading')}>Welcome to React + Backpack</BpkText>
+        <BpkText tagName="h1" textStyle="xxl" className={getClassName('App__heading')}>Flight Schedule</BpkText>
       </div>
     </header>
     <main className={getClassName('App__main')}>
